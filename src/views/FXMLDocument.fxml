@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="677.0" prefWidth="1084.0" style="-fx-background-color: #009933;" styleClass="root" stylesheets="@../css/css.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.FXMLDocumentController">
+   <children>
+      <Text fill="#fcf7f7" layoutX="252.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to UR online Bank" textAlignment="CENTER" wrappingWidth="585.13671875">
+         <font>
+            <Font name="Gabriola" size="48.0" />
+         </font>
+      </Text>
+      <TextField fx:id="user" layoutX="353.0" layoutY="198.0" prefHeight="25.0" prefWidth="325.0" promptText="UserName :" />
+      <PasswordField fx:id="pass" layoutX="354.0" layoutY="248.0" prefHeight="25.0" prefWidth="325.0" promptText="Password" />
+      <JFXCheckBox checkedColor="#f2fcf7" layoutX="354.0" layoutY="322.0" onAction="#control_remember" text="Remember Me" textFill="#f5ebeb" unCheckedColor="#ebeaea" />
+      <JFXButton layoutX="619.0" layoutY="312.0" onAction="#control_login" style="-fx-background-color: #ffffff;" text="Login" textAlignment="CENTER" textFill="#010d25" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXButton>
+      <Separator layoutX="331.0" layoutY="163.0" prefHeight="5.0" prefWidth="402.0" />
+      <Separator layoutX="328.0" layoutY="164.0" orientation="VERTICAL" prefHeight="263.0" prefWidth="6.0" />
+      <Separator layoutX="326.0" layoutY="423.0" prefHeight="12.0" prefWidth="408.0" />
+      <Separator layoutX="730.0" layoutY="164.0" orientation="VERTICAL" prefHeight="263.0" prefWidth="6.0" />
+      <JFXButton layoutX="475.0" layoutY="369.0" onAction="#cpntrol_login" style="-fx-background-color: #ffffff;" text="Forget Password" textFill="#020625">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

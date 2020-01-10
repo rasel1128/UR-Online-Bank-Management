@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="677.0" prefWidth="1084.0" style="-fx-background-color: #009933;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AboutController">
+   <children>
+      <Text fill="#f8e7e7" layoutX="331.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UR Online Bank" wrappingWidth="422.13671875">
+         <font>
+            <Font name="System Bold Italic" size="38.0" />
+         </font>
+      </Text>
+      <Text fill="#f8e7e7" layoutX="421.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About" underline="true" wrappingWidth="422.13671875">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+      </Text>
+      <JFXButton buttonType="RAISED" layoutX="886.0" layoutY="586.0" onAction="#control_back" prefHeight="16.0" prefWidth="79.0" style="-fx-background-color: #009933;" text="Back" textFill="#e5f2f0">
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#5e9759" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill>
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </JFXButton>
+      <Text fill="#f2e6e6" layoutX="83.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Submitted By:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#f2e6e6" layoutX="187.0" layoutY="218.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Team Name: “The 71”">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#f2e6e6" layoutX="188.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Batch           : 12th ">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#f2e6e6" layoutX="185.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Department: CSE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#f2e6e6" layoutX="189.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ranada Prasad Shaha University">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#f2e6e6" layoutX="189.0" layoutY="441.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lecturer">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#f2e6e6" layoutX="189.0" layoutY="409.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B.Sc in CSE (SUST) ">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#f2e6e6" layoutX="189.0" layoutY="377.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Md. Montaser Hamid">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#f2e6e6" layoutX="68.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Submitted to:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#f2e6e6" layoutX="188.0" layoutY="469.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Department of CSE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#f2e6e6" layoutX="188.0" layoutY="499.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ranada Prasad Shaha University">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#f2e6e6" layoutX="482.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Leading Programmer:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#f2e6e6" layoutX="647.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name          : Md. Rasel">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#f2e6e6" layoutX="647.0" layoutY="252.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student ID  : 18100107">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#f2e6e6" layoutX="645.0" layoutY="437.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name          : Tasnim Farhan">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#f2e6e6" layoutX="646.0" layoutY="466.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student ID : 18100011">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#f2e6e6" layoutX="645.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name          : Bristy Akter">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#f2e6e6" layoutX="645.0" layoutY="354.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student ID  : 18100108">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
